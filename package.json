@@ -1,0 +1,42 @@
+{
+  "name": "zodiac-cli",
+  "version": "1.0.0",
+  "description": "A simple CLI to get your zodiac daily.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "chalk": "^2.3.2",
+    "clear": "^0.1.0",
+    "clui": "^0.3.6",
+    "figlet": "^1.2.0",
+    "inquirer": "^5.1.0",
+    "node-fetch": "^2.1.1"
+  },
+  "bin": {
+    "zodiac": "./index.js"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felipesousa/zodiac-cli.git"
+  },
+  "keywords": [
+    "cli",
+    "node",
+    "zodiac",
+    "terminal",
+    "signus",
+    "horoscope"
+  ],
+  "author": "Felipe Sousa <felipzbr@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/felipesousa/zodiac-cli/issues"
+  },
+  "homepage": "https://github.com/felipesousa/zodiac-cli#readme"
+}
